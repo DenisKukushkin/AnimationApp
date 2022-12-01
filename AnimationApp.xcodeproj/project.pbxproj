@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		796A43B629368A310063F121 /* SpringAnimation in Frameworks */ = {isa = PBXBuildFile; productRef = 796A43B529368A310063F121 /* SpringAnimation */; };
 		796A43B82936996E0063F121 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796A43B72936996E0063F121 /* Animation.swift */; };
+		796A43BC293932380063F121 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796A43BB293932380063F121 /* DataManager.swift */; };
 		79768B0A29353209008BA6CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79768B0929353209008BA6CD /* AppDelegate.swift */; };
 		79768B0C29353209008BA6CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79768B0B29353209008BA6CD /* SceneDelegate.swift */; };
 		79768B0E29353209008BA6CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79768B0D29353209008BA6CD /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		796A43B72936996E0063F121 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		796A43BB293932380063F121 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		79768B0629353209008BA6CD /* AnimationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79768B0929353209008BA6CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79768B0B29353209008BA6CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,8 +62,9 @@
 		79768B0829353209008BA6CD /* AnimationApp */ = {
 			isa = PBXGroup;
 			children = (
-				79768B0D29353209008BA6CD /* ViewController.swift */,
 				796A43B72936996E0063F121 /* Animation.swift */,
+				796A43BB293932380063F121 /* DataManager.swift */,
+				79768B0D29353209008BA6CD /* ViewController.swift */,
 				79768B0F29353209008BA6CD /* Main.storyboard */,
 				79768B142935320A008BA6CD /* LaunchScreen.storyboard */,
 				79768B0929353209008BA6CD /* AppDelegate.swift */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79768B0E29353209008BA6CD /* ViewController.swift in Sources */,
+				796A43BC293932380063F121 /* DataManager.swift in Sources */,
 				79768B0A29353209008BA6CD /* AppDelegate.swift in Sources */,
 				796A43B82936996E0063F121 /* Animation.swift in Sources */,
 				79768B0C29353209008BA6CD /* SceneDelegate.swift in Sources */,

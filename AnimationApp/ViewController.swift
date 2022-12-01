@@ -17,14 +17,14 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        animationLabel.text = animation.title
+        animationLabel.text = animation.description
 
     }
 
 
     @IBAction func animationButtonPressed(_ sender: UIButton) {
         
-        animationLabel.text = animation.title
+        animationLabel.text = animation.description
         
         animationView.animation = animation.name
         animationView.force = CGFloat(animation.force)
